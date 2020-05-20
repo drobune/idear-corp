@@ -11496,6 +11496,19 @@ iframe {
 /* End Ten Footer Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
+.news_area {
+  width: 80%;
+  margin: auto;
+}
+
+.news_content {
+  margin: 15px auto;
+}
+
+.news_content .date {
+  color: #FF9600;
+}
+
 .form-inner {
   margin: 15px auto;
   width: 60%;
