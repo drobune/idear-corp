@@ -88,25 +88,25 @@
                 <form id="contact-form" method='post' action="https://script.google.com/macros/s/AKfycbxwsfJbmJ0Vlq9OCzAdHIZtJr0zRzUcI8fqr88ZPVq8iSnrwGM/exec">
                 <div class="form-group">
                     <div class="form-inner">
-                        <label>お名前<input name="name" class="form-control" required></label>
+                        <label>お名前<span class="form-required">必須</span><input type="text" name="name" class="form-control" required></label>
                     </div>
                     <div class="form-inner">
-                        <label>カナ<input name="kana" class="form-control" required></label>
+                        <label>カナ<span class="form-required">必須</span><input type="text" name="kana" class="form-control" required></label>
                     </div>
                     <div class="form-inner">
-                        <label>会社名<input name="company" class="form-control"></label>
+                        <label>会社名<input type="text" name="company" class="form-control"></label>
                     </div>
                     <div class="form-inner">
-                        <label>メールアドレス<input name="email" class="form-control" required></label>
+                        <label>メールアドレス<span class="form-required">必須</span><input type="email" name="email" class="form-control" required></label>
                     </div>
                     <div class="form-inner">
-                        <label>電話番号<input name="tel" class="form-control"></label>
+                        <label>電話番号<input type="text" name="tel" class="form-control"></label>
                     </div>
                     <div class="form-inner">
-                        <label>お問い合わせ内容<textarea name="content" class="form-control" required></textarea></label>
+                        <label>お問い合わせ内容<span class="form-required">必須</span><textarea name="content" class="form-control" required></textarea></label>
                     </div>
                     <div class="form-inner text-center">
-                        <button id="btn-submit" type="button" class="btn btn-primary">送信する</button>
+                        <button id="btn-submit" type="submit" class="btn btn-primary">送信する</button>
                     </div>
                 </div>
                 </form>

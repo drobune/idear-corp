@@ -133,10 +133,18 @@ Table of Content:
   margin:15px auto;
   width:60%;
 }
-
 .form-inner label{
   width:100%;
 }
+.form-required{
+  background: red;
+  color:white;
+  margin-left: 10px;
+  padding: 0px 5px;
+  font-size:12px;
+  border-radius:8px;
+}
+
 
 .company {
 width: 80%;
