@@ -11545,16 +11545,18 @@ iframe {
   font-weight: bold;
 }
 
+.company .pdf_download {
+  padding-bottom: 30px;
+}
+
 @media screen and (max-width: 767px) {
-  .company,
-  .company tr,
-  .company td,
-  .company th {
+  .company, .company tr, .company td, .company th {
     display: block;
   }
 
   .company th {
     width: auto;
+    margin-bottom: -20px;
   }
 }
 

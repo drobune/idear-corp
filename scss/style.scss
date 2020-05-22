@@ -147,25 +147,32 @@ Table of Content:
 
 
 .company {
-width: 80%;
-margin: auto;
+ width: 80%;
+ margin: auto;
 }
 .company th {
-vertical-align:top;
-width:30%;
-color: #FF9600;
+ vertical-align:top;
+ width:30%;
+ color: #FF9600;
 }
 .company th,
 .company td {
-border: none;
-padding: 10px;
-font-weight: bold;
+ border: none;
+ padding: 10px;
+ font-weight: bold;
 }
+.company .pdf_download {
+  padding-bottom: 30px;
+}
+
 @media screen and (max-width: 767px) {
-.company,
-.company tr,
-.company td,
-.company th {display:block;}
-.company th {width:auto;}
+  .company, .company tr, .company td, .company th {
+    display:block;
+
+  }
+  .company th {
+    width:auto;
+    margin-bottom: -20px;
+  }
 }
 
