@@ -185,12 +185,14 @@
 	.hosting_search_area {
 		top: 50%;
 	}
+/*
 	.server_b_inner .server_text h4 {
 		font-size: 26px;
 	}
 	.server_b_inner .server_text h5 {
 		font-size: 22px;
 	}
+*/
 	.server_b_inner .server_text h4 span::before {
 		left: -86px;
 		top: -108px;
@@ -713,8 +715,10 @@
 		text-align: left;
 	}
 	.server_banner_area {
-		padding-top: 180px;
-		padding-bottom: 100px;
+		padding-top: 90px;
+		padding-bottom: 280px;
+    background-size: cover;
+    background-position-y: -50px;
 	}
 	.server_b_inner .server_shap_img {
 		margin-left: 0px;
@@ -1877,5 +1881,14 @@
 	#main_slider_ten ul li .slider_text_box .third_text a + a {
 		margin-top: 10px;
 	}
+  .server_banner_area {
+    padding-top: 15%;
+    padding-bottom: 40%;
+    background-size: 130%;
+    background-position: top;
+  }
+  .server_text {
+    width: 70%;
+  }
 }
 @media (max-width: 360px){}

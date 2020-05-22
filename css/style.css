@@ -1357,17 +1357,18 @@ iframe {
 .server_banner_area {
   background: url(../img/banner/server-banner.jpg) no-repeat fixed center center;
   background-size: cover;
-  padding-top: 275px;
-  padding-bottom: 190px;
+  padding-top: 100px;
+  padding-bottom: 360px;
 }
 
 .server_b_inner .server_text h4 {
-  font-size: 50px;
+  font-size: 4rem;
   font-family: "Montserrat", sans-serif;
-  color: #fff;
+  color: darkorange;
   letter-spacing: 0px;
-  text-transform: uppercase;
+  text-transform: none;
   position: relative;
+  font-weight: bold;
 }
 .server_b_inner .server_text h4 span {
   position: relative;
@@ -1400,11 +1401,11 @@ iframe {
   */
 }
 .server_b_inner .server_text h5 {
-  font-size: 36px;
+  font-size: 3rem;
   font-family: "Montserrat", sans-serif;
-  font-weight: 300;
-  color: #fff;
-  text-transform: uppercase;
+  font-weight: bold;
+  color: darkorange;
+  text-transform: none;
   letter-spacing: .72px;
   padding: 25px 0px 25px 0px;
 }
@@ -11558,6 +11559,10 @@ iframe {
     width: auto;
     margin-bottom: -20px;
   }
+}
+.server_text {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 10px 0 0 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
