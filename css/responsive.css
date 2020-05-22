@@ -648,7 +648,7 @@
 		line-height: 64px;
 	}
 	.hosting_menu + section, .hosting_menu + div, .hosting_menu + .row {
-		margin-top: 65px;
+		margin-top: 30px;
 	}
 	.hosting_main_menu .navbar.navbar-default .nav.navbar-nav.navbar-right {
 		display: none;
