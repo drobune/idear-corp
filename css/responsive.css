@@ -716,7 +716,7 @@
 	}
 	.server_banner_area {
 		padding-top: 90px;
-		padding-bottom: 280px;
+		padding-bottom: 360px;
     background-size: cover;
     background-position-y: -50px;
 	}
@@ -1044,6 +1044,12 @@
 	}
   #header_logo{
     width:60px;
+  }
+  #header_text{
+    color: darkorange;
+    margin-top: 22px;
+    font-size: 14px;
+    display:inline-block;
   }
 }
 @media (max-width: 767px){
@@ -1886,7 +1892,7 @@
 	}
   .server_banner_area {
     padding-top: 15%;
-    padding-bottom: 40%;
+    padding-bottom: 55%;
     background-size: 130%;
     background-position: top;
   }

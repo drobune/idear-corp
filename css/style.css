@@ -1358,7 +1358,7 @@ iframe {
   background: url(../img/banner/server-banner.jpg) no-repeat fixed center center;
   background-size: cover;
   padding-top: 100px;
-  padding-bottom: 360px;
+  padding-bottom: 440px;
 }
 
 .server_b_inner .server_text h4 {
@@ -11566,7 +11566,16 @@ iframe {
 }
 
 #header_logo {
-  width: 80px;
+  width: 75px;
+}
+
+#header_text {
+  display: inline-block;
+  color: darkorange;
+  margin-top: 37px;
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
