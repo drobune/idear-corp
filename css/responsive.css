@@ -1042,6 +1042,9 @@
 	#main_slider_ten ul li .slider_text_box .ten_mobile {
 		display: none;
 	}
+  #header_logo{
+    width:60px;
+  }
 }
 @media (max-width: 767px){
 	.gd_title h2::before {
