@@ -110,18 +110,19 @@
 .server_banner_area{
 	background: url(../img/banner/server-banner.jpg) no-repeat fixed center center;
 	background-size: cover;
-	padding-top: 275px;
-	padding-bottom: 190px;
+	padding-top: 100px;
+	padding-bottom: 440px;
 }
 .server_b_inner{
 	.server_text{
 		h4{
-			font-size: 50px;
+			font-size: 4rem;
 			font-family: $mon;
-			color: #fff;
+			color: darkorange;
 			letter-spacing: 0px;
-			text-transform: uppercase;
+			text-transform: none;
 			position: relative;
+			font-weight: bold;
 			span{
 				position: relative;
 /*
@@ -154,11 +155,11 @@
 			}
 		}
 		h5{
-			font-size: 36px;
+			font-size: 3rem;
 			font-family: $mon;
-			font-weight: 300;
-			color: #fff;
-			text-transform: uppercase;
+			font-weight: bold;
+			color: darkorange;
+			text-transform: none;
 			letter-spacing: .72px;
 			padding: 25px 0px 25px 0px;
 		}
